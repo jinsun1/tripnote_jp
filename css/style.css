@@ -731,7 +731,7 @@ body {
 }
 
 #overlay {
-    width: 30%;
+    width: 35%;
     position: fixed;
     top: 0;
     right: 0;
@@ -825,7 +825,7 @@ body {
 
 #overlay nav ul li a {
     text-transform: normal;
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 600;
     color: white;
     text-decoration: none;
@@ -854,12 +854,12 @@ body {
 /*sub메뉴 미디어쿼리*/
 @media (min-width:1220px) and (max-width:1600px) {
     #overlay {
-        width: 40%;
+        width: 45%;
     }
 
     #overlay nav ul li a {
         letter-spacing: 2px;
-        font-size: 40px;
+        font-size: 35px;
     }
 }
 
@@ -870,29 +870,29 @@ body {
 
     #overlay nav ul li a {
         letter-spacing: 2px;
-        font-size: 40px;
+        font-size: 35px;
     }
 }
 
 @media (min-width:900px) and (max-width:1099px) {
     #overlay {
-        width: 50%;
+        width: 55%;
     }
 
     #overlay nav ul li a {
         letter-spacing: 2px;
-        font-size: 35px;
+        font-size: 32px;
     }
 }
 
 @media (min-width:750px) and (max-width:899px) {
     #overlay {
-        width: 55%;
+        width: 65%;
     }
 
     #overlay nav ul li a {
         letter-spacing: 1px;
-        font-size: 36px;
+        font-size: 32px;
     }
 }
 
@@ -1442,10 +1442,8 @@ body {
     }
 
     #overlay nav {
-
         left: 15px;
     }
-
 }
 
 /*500px이하 미디어쿼리 끝부분*/
@@ -1573,6 +1571,14 @@ body {
 
     .text_po p {
         padding-bottom: 15px;
+    }
+
+    #overlay nav ul li a {
+        font-size: 22px;
+    }
+
+    #overlay nav ul li a {
+        height: 38px;
     }
 
 }
