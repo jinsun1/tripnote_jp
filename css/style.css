@@ -64,8 +64,6 @@ body {
     color: #111;
 }
 
-
-
 .lang {
     display: flex;
     justify-content: space-between;
@@ -96,7 +94,7 @@ body {
 
 /*header_black*/
 .header_black {
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: #fff;
 }
 
 .header_black .logo .st0 {
@@ -118,7 +116,6 @@ body {
     color: #111;
     background-color: #fff;
 }
-
 
 .header_black .gnb path {
     fill: #111;
@@ -237,7 +234,7 @@ body {
     height: 65px;
     display: block;
     border-radius: 40px;
-    margin-right: 25px;
+    margin-right: 20px;
     line-height: 65px;
     color: #fff;
     font-weight: 500;
@@ -254,12 +251,11 @@ body {
 #container {
     position: relative;
     height: 625px;
-    padding-top: 220px;
-    padding-bottom: 220px;
+    margin: 280px 0;
 }
 
 #container p {
-    font-size: 23px;
+    font-size: 21px;
     font-weight: 500;
 }
 
@@ -292,7 +288,7 @@ body {
 }
 
 .text_po p {
-    padding-bottom: 25px;
+    padding-bottom: 20px;
 }
 
 .small-slide {
@@ -353,14 +349,15 @@ body {
 
 #korea_slide .swiper-wrapper h3 {
     font-size: 38px;
-    font-weight: 700;
+    font-weight: 600;
     padding-bottom: 25px;
 }
 
 #korea_slide .swiper-wrapper h5 {
-    font-size: 21px;
-    font-weight: 500;
-    padding-bottom: 50px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    padding-bottom: 35px;
     letter-spacing: 1px;
 }
 
@@ -394,7 +391,7 @@ body {
 }
 
 .kor_text_box {
-    max-width: 300px;
+    max-width: 330px;
     margin: 0 auto;
     padding-top: 115px;
 }
@@ -413,7 +410,7 @@ body {
 }
 
 .text_wrapper h1 {
-    padding-right: 45px;
+    padding: 0 60px;
 }
 
 .text_wrapper img {
@@ -424,7 +421,6 @@ body {
     font-size: 60px;
     font-weight: 800;
     letter-spacing: 3px;
-    padding-right: 45px;
     color: #fff;
     text-shadow: -1px 0px #000, 0px 1px #000, 1px 0px #000, 0px -1px #000;
 }
@@ -439,7 +435,7 @@ body {
 }
 
 #best .title {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 38px;
     letter-spacing: 3px;
     padding-bottom: 30px;
@@ -471,8 +467,8 @@ body {
 #best .best_text {
     text-align: left;
     position: absolute;
-    bottom: 40px;
-    left: 5%;
+    bottom: 45px;
+    left: 6%;
     color: #fff;
 }
 
@@ -485,7 +481,7 @@ body {
 .best_text h2 {
     font-size: 30px;
     font-weight: 600;
-    padding-bottom: 10px;
+    padding-bottom: 7px;
 }
 
 #best .best_text ol {
@@ -498,12 +494,11 @@ body {
     border: 1px solid #fff;
     text-align: center;
     align-items: center;
-    padding: 9px 10px;
-    margin-right: 5px;
+    padding: 8px 14px;
+    margin-right: 6px;
     font-weight: 400;
-    font-size: 15px;
-    letter-spacing: 0px;
-    border-radius: 50px;
+    font-size: 18px;
+    border-radius: 60px;
 }
 
 #best .rank_box {
@@ -536,14 +531,14 @@ body {
 .img_wrapper1 {
     display: flex;
     width: 5600px;
-    animation: text_ani 40s linear infinite;
+    animation: text_ani 60s linear infinite;
     padding-bottom: 18px;
 }
 
 .img_wrapper2 {
     display: flex;
     width: 5800px;
-    animation: text_ani 40s linear infinite reverse;
+    animation: text_ani 60s linear infinite reverse;
     padding-bottom: 230px;
 }
 
@@ -780,7 +775,7 @@ body {
 
 #overlay nav ul li a {
     position: relative;
-    height: 45px;
+    height: 50px;
     display: inline-block;
     color: #ffffff;
     transition: all 0.6s 0s ease;
@@ -830,11 +825,11 @@ body {
 
 #overlay nav ul li a {
     text-transform: normal;
-    font-size: 33px;
+    font-size: 40px;
     font-weight: 600;
     color: white;
     text-decoration: none;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
 
 }
 
@@ -863,8 +858,8 @@ body {
     }
 
     #overlay nav ul li a {
-        letter-spacing: 1px;
-        font-size: 33px;
+        letter-spacing: 2px;
+        font-size: 40px;
     }
 }
 
@@ -875,7 +870,7 @@ body {
 
     #overlay nav ul li a {
         letter-spacing: 2px;
-        font-size: 35px;
+        font-size: 40px;
     }
 }
 
@@ -885,8 +880,8 @@ body {
     }
 
     #overlay nav ul li a {
-        letter-spacing: 1px;
-        font-size: 30px;
+        letter-spacing: 2px;
+        font-size: 35px;
     }
 }
 
@@ -897,12 +892,144 @@ body {
 
     #overlay nav ul li a {
         letter-spacing: 1px;
-        font-size: 29px;
+        font-size: 36px;
     }
 }
 
 
+@media (min-width:1000px) and (max-width:1319px) {
 
+    /*best*/
+    #best {
+        width: 90%;
+        padding-top: 180px;
+        padding-bottom: 180px;
+    }
+
+    #best ul li img {
+        width: 100%;
+    }
+
+    #best .title {
+        font-size: 38px;
+        letter-spacing: 3px;
+        padding-bottom: 30px;
+    }
+
+    #best .best_text {
+        text-align: left;
+        position: absolute;
+        bottom: 30px;
+        left: 7%;
+        color: #fff;
+    }
+
+    .best_text p {
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+
+    .best_text h2 {
+        font-size: 33px;
+        font-weight: 600;
+        padding-bottom: 15px;
+        letter-spacing: 1px;
+    }
+
+    .best_text ol li {
+        display: block;
+        border: 1px solid #fff;
+        text-align: center;
+        align-items: center;
+        padding: 8px 16px;
+        margin-right: 6px;
+        margin-bottom: 5px;
+        font-weight: 400;
+        font-size: 18px;
+        letter-spacing: 1px;
+        border-radius: 40px;
+    }
+
+    #best .rank_box {
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: #fff;
+        background-color: #62c6c4;
+        padding: 25px;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 4px;
+    }
+}
+
+@media (min-width:750px) and (max-width:999px) {
+
+    /*best*/
+    #best {
+        width: 90%;
+        padding-top: 180px;
+        padding-bottom: 180px;
+    }
+
+    #best ul li img {
+        width: 100%;
+    }
+
+    #best .title {
+        font-size: 38px;
+        letter-spacing: 3px;
+        padding-bottom: 30px;
+    }
+
+    #best .best_text {
+        text-align: left;
+        position: absolute;
+        bottom: 22px;
+        left: 7%;
+        color: #fff;
+    }
+
+    .best_text p {
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+
+    .best_text h2 {
+        font-size: 29px;
+        font-weight: 600;
+        padding-bottom: 8px;
+        letter-spacing: 1px;
+    }
+
+    .best_text ol li {
+        display: block;
+        border: 1px solid #fff;
+        text-align: center;
+        align-items: center;
+        padding: 4px 12px;
+        margin-right: 6px;
+        margin-bottom: 5px;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 1px;
+        border-radius: 40px;
+    }
+
+    #best .rank_box {
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: #fff;
+        background-color: #62c6c4;
+        padding: 22px;
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 4px;
+    }
+}
 
 /*태블릿 미디어쿼리*/
 @media (min-width:750px) and (max-width:1319px) {
@@ -929,35 +1056,12 @@ body {
         bottom: 17%;
     }
 
-    /*best*/
-    #best {
-        width: 90%;
-        padding-bottom: 260px;
+    #korea_slide {
+        padding-bottom: 180px;
     }
 
-    #best ul li img {
-        width: 100%;
-    }
-
-    .best_text ol li {
-        padding: 8px 18px;
-        margin-bottom: 5px;
-        font-weight: 400;
-        font-size: 16px;
-        letter-spacing: 1px;
-        border-radius: 40px;
-    }
-
-    .best_text ol li {
-        display: block;
-        border: 1px solid #fff;
-        text-align: center;
-        align-items: center;
-        padding: 5px 10px;
-        margin-right: 10px;
-        font-weight: 300;
-        font-size: 15px;
-        border-radius: 30px;
+    #container {
+        margin: 230px 0;
     }
 
     /*img_slide*/
@@ -967,6 +1071,15 @@ body {
 
     .img_slide img {
         width: 90%;
+    }
+
+    .img_wrapper2 {
+        padding-bottom: 200px;
+    }
+
+    #footer .text_left h4 {
+
+        margin-bottom: 20px;
     }
 }
 
@@ -1018,10 +1131,7 @@ body {
     }
 
     #container {
-
-        height: 625px;
-        padding-top: 150px;
-        padding-bottom: 150px;
+        margin: 210px 0;
     }
 
     /*slide_movie*/
@@ -1035,12 +1145,12 @@ body {
 
     /*korea_slide*/
     #korea_slide {
-        padding-bottom: 100px;
+        padding-bottom: 150px;
     }
 
     #korea_slide .korea_text {
         width: 80%;
-        height: 390px;
+        height: 300px;
     }
 
     #korea_slide .korea_photo {
@@ -1064,26 +1174,29 @@ body {
 
     /*text_slide*/
     .text_wrapper h1 {
-        padding-right: 50px;
+        text-align: center;
     }
 
     .text_wrapper p {
         font-size: 55px;
         font-weight: 800;
         letter-spacing: 3px;
-        padding-right: 50px;
     }
 
     .text_wrapper img {
-        width: 70%;
+        width: 85%;
+    }
+
+    .text_wrapper h1 {
+        padding: 0 30px;
     }
 
     /*BEST*/
     #best {
-        width: 90%;
+        width: 85%;
         margin: 0 auto;
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding-top: 150px;
+        padding-bottom: 150px;
     }
 
     #best .title {
@@ -1093,22 +1206,27 @@ body {
     }
 
     #best>ul>li {
-        width: auto;
+        width: 80%;
         max-width: 350px;
-        margin-bottom: 55px;
+        margin-bottom: 30px;
     }
+
+    #best>ul>li:last-child {
+        margin-bottom: 0px;
+    }
+
 
     #best ul li img {
         max-width: 100%;
     }
 
     #best .best_text {
-        top: 64%;
+        top: 67%;
         left: 7%;
     }
 
     .best_text p {
-        font-size: 18px;
+        font-size: 17px;
         font-weight: 300;
         letter-spacing: 1px;
     }
@@ -1117,6 +1235,7 @@ body {
         font-size: 35px;
         font-weight: 600;
         padding-bottom: 5px;
+        letter-spacing: -1px;
     }
 
     .best_text ol li {
@@ -1126,9 +1245,9 @@ body {
         align-items: center;
         padding: 5px 15px;
         margin-right: 7px;
-        margin-bottom: 7px;
+        margin-bottom: 5px;
         font-weight: 300;
-        font-size: 18px;
+        font-size: 17px;
         letter-spacing: 1px;
         border-radius: 40px;
     }
@@ -1159,7 +1278,7 @@ body {
     #footer .text_left h4 {
         font-size: 15px;
         font-weight: 300;
-        padding-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     /*sub*/
@@ -1176,7 +1295,7 @@ body {
 @media (min-width:750px) and (max-width:980px) {
     #korea_slide .korea_text {
         width: 80%;
-        height: 380px;
+        height: 330px;
     }
 
     #korea_slide .korea_photo {
@@ -1185,7 +1304,7 @@ body {
     }
 
     .korea_photo .swiper-slide {
-        width: 370px;
+        width: 300px;
     }
 
     #korea_slide .korea_photo img {
@@ -1197,16 +1316,7 @@ body {
         margin: 0;
         padding-top: 0;
     }
-
-    .best_text h2 {
-        font-size: 25px;
-        font-weight: 600;
-        padding-bottom: 5px;
-    }
-
 }
-
-
 
 /*500px이하 미디어쿼리*/
 @media(max-width:500px) {
@@ -1228,20 +1338,24 @@ body {
     }
 
     .text_box p {
-        font-size: 33px;
-        line-height: 50px;
+        font-size: 34px;
+        line-height: 55px;
+    }
+
+    .text_po p {
+        padding-bottom: 17px;
     }
 
     #container {
-        padding-top: 140px;
-        margin-top: 50px;
-        margin-bottom: 50px;
+        margin: 130px 0;
     }
 
+
     #korea_slide .swiper-wrapper h3 {
-        font-size: 32px;
+        font-size: 31px;
         font-weight: 600;
         padding-bottom: 20px;
+        letter-spacing: -1px;
     }
 
     #korea_slide .swiper-wrapper h5 {
@@ -1267,7 +1381,6 @@ body {
     /*best*/
     #best {
         padding-top: 90px;
-
     }
 
     #best .title {
@@ -1277,22 +1390,36 @@ body {
     }
 
     .best_text ol li {
-        border: none;
-        padding: 0;
-        font-size: 21px;
-        letter-spacing: 1px;
+        font-size: 15px;
+        letter-spacing: 0px;
     }
 
     .best_text h2 {
+        font-size: 32px;
         padding-bottom: 6px;
     }
 
     #best>ul>li {
-        margin-bottom: 25px;
+        margin-bottom: 20px;
+        width: 80%;
     }
 
-    .img_wrapper2 {
-        padding-bottom: 100px;
+    #best .best_text {
+        top: 58%;
+        left: 7%;
+    }
+
+    .text_wrapper p {
+        font-size: 44px;
+        letter-spacing: 1px;
+    }
+
+    .text_wrapper img {
+        width: 75%;
+    }
+
+    .text_wrapper h1 {
+        padding: 0px;
     }
 
     #footer .text_left ul li {
@@ -1303,6 +1430,7 @@ body {
         margin-bottom: 10px;
     }
 
+
     /*sub*/
     #overlay {
         width: 100%;
@@ -1310,7 +1438,7 @@ body {
 
     #overlay nav ul li a {
         letter-spacing: 0px;
-        font-size: 22px;
+        font-size: 30px;
     }
 
     #overlay nav {
@@ -1318,58 +1446,133 @@ body {
         left: 15px;
     }
 
-    #korea_slide .korea_text {
-        width: 80%;
-        height: 360px;
-    }
 }
 
 /*500px이하 미디어쿼리 끝부분*/
 
 @media (min-width:401px) and (max-width:500px) {
-
-
     .phone {
-        left: 12%;
-        width: 75%;
-    }
-
-    #best .title {
-        font-size: 32px;
-        letter-spacing: 1px;
-        padding-bottom: 20px;
+        left: 15%;
+        width: 70%;
     }
 
     #korea_slide {
         padding-top: 0;
     }
 
-    #overlay nav ul li a {
-        letter-spacing: 0px;
-        font-size: 28px;
-    }
 }
 
 @media(max-width:400px) {
+    .icon_box a {
+        margin-bottom: 15px;
+    }
+
     .phone {
-        left: 5%;
-        width: 90%;
+        left: 10%;
+        width: 80%;
+    }
+
+    #container {
+        height: 550px;
+    }
+
+    #container p {
+        font-size: 20px;
+    }
+
+    .background_slide .swiper-slide {
+        height: 70%;
     }
 
     .background_slide {
         padding-top: 0;
     }
 
+    #container {
+        margin: 150px 0;
+    }
+
+    #korea_slide .swiper-wrapper p {
+        font-size: 16px;
+    }
+
+    .korea_photo .swiper-slide {
+        width: 250px;
+    }
+
+    /*best*/
+    #best {
+        width: 90%;
+        padding-bottom: 100px;
+    }
+
     #best .title {
-        font-size: 32px;
+        font-size: 33px;
         letter-spacing: 1px;
         padding-bottom: 20px;
     }
 
-    #container {
-        margin-top: 0;
-        margin-bottom: 0;
+    #korea_slide .korea_text {
+        height: 315px;
+        top: 55%;
     }
 
+    .best_text ol li {
+        border: none;
+        padding: 0;
+        font-size: 17px;
+        letter-spacing: -1px;
+    }
+
+    #best>ul>li {
+        width: 85%;
+    }
+
+    .best_text h2 {
+        font-size: 30px;
+    }
+
+    #best .best_text {
+        top: 64%;
+    }
+
+    .best_text p {
+        font-size: 15px;
+    }
+
+    .img_wrapper2 {
+        padding-bottom: 100px;
+    }
+
+    #best .rank_box {
+        padding: 22px;
+        font-size: 19px;
+    }
+
+    .text_wrapper {
+        width: 4600px;
+    }
+
+    .icon_box a {
+        border: 2px solid #fff;
+        width: 170px;
+        height: 60px;
+        display: block;
+        border-radius: 40px;
+        margin-right: 25px;
+        line-height: 60px;
+        color: #fff;
+        font-weight: 500;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    #container p {
+        font-size: 18px;
+    }
+
+    .text_po p {
+        padding-bottom: 15px;
+    }
 
 }
