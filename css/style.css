@@ -668,7 +668,8 @@ body {
 /*sub*/
 .lang_box {
     position: absolute;
-    top: 30px;
+    top: 50%;
+    transform: translateY(-50%);
     right: 30px;
     cursor: pointer;
     z-index: 1000;
@@ -1278,7 +1279,7 @@ body {
     #footer .text_left h4 {
         font-size: 15px;
         font-weight: 300;
-        margin-bottom: 20px;
+        margin-bottom: 35px;
     }
 
     /*sub*/
